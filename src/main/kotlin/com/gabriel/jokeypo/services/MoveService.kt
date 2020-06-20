@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service
 @Service
 class MoveService {
 
-    val movieRepository = MoveRepository()
+    val moveRepository = MoveRepository()
 
-    fun save(moveInst: Move) = movieRepository.moves.add(moveInst)
-    fun getByPlayer(player: Player): Move = movieRepository.getByPlayer(player)
+    fun save(moveInst: Move) = moveRepository.moves.add(moveInst)
+    fun getByPlayer(player: Player): Move = moveRepository.getByPlayer(player)
 
 }

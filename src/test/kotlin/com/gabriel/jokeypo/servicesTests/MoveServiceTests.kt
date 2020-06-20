@@ -18,7 +18,7 @@ class MoveServiceTests {
     fun `insert a move and get by player`() {
         val name = "Gabriel"
         val player = Player(name)
-        val move = "Papel"
+        val move = "Paper"
         val moveInst = Move(player, move)
         moveService.save(moveInst)
         assertThat(moveInst).isEqualTo(moveService.getByPlayer(player))
