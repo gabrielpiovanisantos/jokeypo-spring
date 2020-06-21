@@ -21,6 +21,6 @@ class MoveServiceTests {
         val move = "Paper"
         val moveInst = Move(player, move)
         moveService.save(moveInst)
-        assertThat(moveInst).isEqualTo(moveService.getByPlayer(player))
+        assertThat(moveInst).isEqualTo(moveService.getByPlayerName(name))
     }
 }

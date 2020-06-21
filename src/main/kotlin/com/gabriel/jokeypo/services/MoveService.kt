@@ -11,6 +11,7 @@ class MoveService {
     val moveRepository = MoveRepository()
 
     fun save(moveInst: Move) = moveRepository.moves.add(moveInst)
-    fun getByPlayer(player: Player): Move = moveRepository.getByPlayer(player)
+    fun getByPlayerName(name: String): Move = moveRepository.getByPlayer(Player(name))
+    fun getMoves(): ArrayList<Move> = moveRepository.moves
 
 }
