@@ -23,4 +23,4 @@ para adicionar uma jogava nova e enfim use o serviço
 
     /game
     
-para calcular e gerar o resultado.
+para calcular e gerar o resultado. (a lista de jogadas é zerada a partir de cada resultado gerado)
