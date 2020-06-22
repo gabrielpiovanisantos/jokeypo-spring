@@ -13,7 +13,7 @@ As opções de jogadas são
 Para executar voce pode usar o comando "gradlew build" e então rodar o jar gerado localizado na pasta /build/libs ou usar o   
 comando "gradlew bootRun" para executar diretamente.
 
-Para jogar usr o serviço 
+Para jogar usar o serviço (TODOS SÃO GET APENAS POR PADRÃO)
     
     /move/save?name=<Nome>&move=<Jogada>
 exemplo
